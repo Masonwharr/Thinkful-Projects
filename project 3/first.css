@@ -1,0 +1,19 @@
+#name{ font-family:verdana; 
+margin:auto;
+}
+#first {
+   width: 1015px;
+    border: 3px solid red;
+    padding: 10px;
+    margin: auto;
+}
+#desc{
+   font-family: sans-serif;
+  align-content:center;
+  font-weight:bold;
+  font-style: times;
+}
+#list {font-family: sans-serif;}
+#contact {font-family:courier;}
+#backround{background-color:#cccccc;
+}
