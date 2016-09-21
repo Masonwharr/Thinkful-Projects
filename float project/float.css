@@ -1,0 +1,26 @@
+body{
+  background-color:black;
+}
+.title{
+color:white;
+}
+.blah{
+  color:white;
+}
+.nebula{
+  float:left;
+ margin-right:30px;
+position:relative;
+  top:20px;
+   right:20px;
+ }
+.another{
+  float:right;
+  margin-left:30px;
+  position:relative;
+  top:20px;
+ right:20px;
+}
+.really{
+  color:white;
+}
