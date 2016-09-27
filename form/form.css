@@ -1,0 +1,126 @@
+body,html{
+  margin:0;
+  padding:0;
+  background-color:#3f94e7;
+}
+.wrapper{
+  width:960px;
+  margin:0;
+  padding:0;
+}
+.form{
+  position:absolute;
+  width:480px;
+  height:530px;
+  background-color:#ffffff;
+  left:400px;
+  top:100px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+padding: 0 40 0 40;
+  margin-bottom:10px;
+}
+
+.logo{
+  position:absolute;
+  left:610px;
+  top:50px;
+  margin:0;
+  padding:0;
+  
+}
+
+.email{
+  position:relative;
+  margin:0;
+  padding:0;
+  right:100px;
+  font-family:Lato;
+  font-size:25px;
+  
+}
+
+.signin{
+  position:relative;
+  top:100px;
+ 
+}
+.input1{
+  width:320px;
+   position:absolute;
+  right:55px;
+  padding:15px;
+  margin:10px;
+   border:2px solid grey;
+}
+.input2{
+ width:320px;
+  position:absolute;
+  right:65px;
+  padding:15px;
+  top:140px;
+  border:2px solid grey;
+}
+
+.password{
+  position:relative;
+  margin:0;
+  padding:0;
+  right:80px;
+  top:70px;
+  font-family:Lato;
+  font-size:25px;
+  
+}
+
+.signup{
+  font-family:Lato;
+  font-weight:100;
+  font-size:80px;
+  margin:0;
+  padding:0;
+  position:relative;
+  left:110px;
+  color:grey;
+  top:20px;
+  
+}
+.button{
+  padding:15px;
+  border:2px;
+  background-color:#65c470;
+  color:white;
+  position:relative;
+  top:150px;
+  right:0px;
+  left:15px;
+  width:270px;
+  font-family:Lato;
+  font-size:20px;
+}
+
+.forgot{
+  margin:0;
+  padding:0;
+  color:grey;
+  font-family:Lato;
+  position:absolute;
+  top:270px;
+  right:180px
+}
+.alreadylink{
+  color:white;
+  font-family:Lato;
+}
+.already{
+ color:white;
+  font-family:Lato;
+  position:relative;
+  top:630px;
+  margin:20px;
+  left:550px;
+}
+.button:hover{
+  background-color:green;
+}
