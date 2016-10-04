@@ -1,0 +1,313 @@
+html, body{ 
+  margin:0;
+  padding:0;
+}
+
+.wrapper{
+  margin:0;
+  padding:0;
+  width:960px;
+}
+
+.sub{
+  padding:0;
+  margin:0;
+  position:relative;
+  right:590px;
+  font-family:lato;
+  font-weight:100;
+}
+.title{
+  margin:0;
+  padding:5px;
+  font-family:Lato;
+  position:relative;
+  right:500px;
+}
+
+.nav{
+	margin:0;
+	list-style:none;
+	background-color: #f0bd35;
+  height:70px;
+  text-align:center;
+  margin-bottom:60px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+.square1{
+    position:relative;
+  left:220px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+}
+
+.square3{
+     position:relative;
+  left:260px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+}
+.square2{
+     position:relative;
+  left:240px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+  
+}
+
+.square4{
+  position:relative;
+  left:100px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+}
+.desc4{
+  font-family:Lato;
+  margin:0;
+  margin-left:20px
+}
+
+.desc1{
+font-family:Lato;
+  margin:0;
+  margin-left:20px
+  
+}
+
+.ray{
+  margin:0px;
+  margin-right:230px;
+  margin-top:10px;
+  font-family:Lato;
+  position:relative;
+  left:20px;
+  
+  
+}
+
+.rayimg{
+ margin-left:1px;
+  margin-right:1px;
+  margin-top:1px;
+  
+}
+
+.desc3{
+  font-family:Lato;
+  margin:0;
+  margin-left:20px
+}
+
+.kylo{
+  margin:0px;
+  position:relative;
+  left:20px;
+  margin-right:0px;
+  margin-top:10px;
+  font-family:Lato;
+  
+}
+
+
+.kyloimg{
+  margin-left:1px;
+  margin-right:1px;
+  margin-top:1px;
+}
+
+
+.finn{
+   margin:0px;
+  position:relative;
+  left:20px;
+  margin-right:0px;
+  margin-top:10px;
+  font-family:Lato;
+  
+}
+.finnimg{
+   margin-left:1px;
+  margin-right:1px;
+  margin-top:1px;
+  
+}
+.desc2{
+   font-family:Lato;
+  margin:0;
+  margin-left:20px
+  
+}
+
+.row1{
+  margin-top:20px;
+  margin-bottom:10px;
+  left:120px;
+  
+}
+
+
+
+.row2{
+  position:absolute;
+  top:440px;
+  margin-top:80px;
+  margin-bottom:50px;
+  left:140px;
+}
+.poeimg{
+  margin-left:1px;
+  margin-right:1px;
+  margin-top:1px;
+  
+}
+.name{
+  margin:0px;
+  margin-top:10px;
+   margin-right:235px;
+  font-family:Lato;
+}
+.chewimg{
+  margin-left:1px;
+  margin-right:1px;
+  margin-top:1px;
+  
+}
+.chew{
+  margin:0px;
+   margin-right:180px;
+  margin-top:10px;
+  font-family:Lato;
+  
+}
+
+.desc5{
+   font-family:Lato;
+  margin:0;
+  margin-left:20px
+}
+.square5{
+  position:relative;
+  left:100px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+  margin-left:20px;
+}
+
+.square6{
+  position:relative;
+  left:100px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+  margin-left:20px;
+}
+.desc6{
+  font-family:Lato;
+  margin:0;
+  margin-left:20px
+}
+.yoda{
+    margin:0px;
+  margin-right:230px;
+  margin-top:10px;
+  font-family:Lato;
+  
+}
+.yodaimg{
+   margin-left:1px;
+  margin-right:1px;
+  margin-top:1px;
+}
+/* Responsive Code */
+@media screen and (max-width:639px) {
+ 
+  .wrapper{
+    width:639px;
+  }
+  
+  .row1, .row2{
+    width:322px;
+  }
+  .square1{
+      position:relative;
+  left:220px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+  margin-bottom:20px;
+  }
+  
+  .square2{
+      position:relative;
+  left:240px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+  left:220px;
+    
+  }
+  .square3{
+         position:relative;
+  left:260px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+  top:20px;
+  left:220px;
+    
+  }
+  .square4{
+    position:relative;
+  left:100px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+  top:800px;
+  left:240px;
+  }
+  .square5{
+     position:relative;
+  left:100px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+  margin-left:20px;
+  top:820px;
+    left:230px;
+    
+  }
+  .square6{
+     position:relative;
+  left:100px;
+  display:inline-block;
+  border:1px grey solid;
+  height:370px;
+  width:302px;
+  margin-left:20px;
+  top:840px;
+  left:230px;
+  margin-bottom:50px;
+     
+  }
+  .nav{
+    width:740px;
+  }
+}
