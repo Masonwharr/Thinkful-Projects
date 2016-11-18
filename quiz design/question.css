@@ -1,0 +1,35 @@
+html, body {
+  margin:0px;
+  padding:0px;
+  background-color:#FFFAF0;
+}
+.container{
+ width:960px;
+  margin:0px;
+  padding:0px;
+  position:absolute;
+   top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.title{
+  font-family:lato;
+  font-size:20px;
+}
+.question{
+width: 300px;
+    height: 300px;
+  position:absolute;
+   top:50%;
+  left:50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  display:inline-block;
+  background-color:#008080;
+  padding:20px;
+  margin:30px;
+  border-radius:5%;
+}
