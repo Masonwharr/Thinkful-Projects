@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="animate.css">
+      <link rel="stylesheet" type="text/css" href="quiz.css">
+      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+     <script src="quiz.js"></script>
+    </head>
+      <div class="container">
+    <body>
+      <div class="button animated bounceInDown" id="button"> 
+        <a href="#" class="link" id="link"><span class="button-text">Click for quiz</span></a>
+        <script> $('#link').click(function(){
+          $('#button').addClass('animated bounceOutUp');
+        setTimeout(function(){ window.location.href = "question1.html";},600); 
+      });
+
+          </script>
+        </div>      
+      <div class="footer">
+        <span class="footer-text">Ask a question </span>
+      <span class="footer-text">Ask a question </span>
+        <span class="footer-text">Ask a question </span>
+      </div>
+      </body>
+      </div>
+      </html>
