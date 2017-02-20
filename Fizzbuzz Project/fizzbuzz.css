@@ -1,0 +1,10 @@
+body{
+	background-color:#817F75;
+	color:#EEE5E9;
+}
+.text{
+	font: 400 2.0em/1.5em 'Lato';
+position:relative;
+left:50%;
+margin-left:-25px;
+}
