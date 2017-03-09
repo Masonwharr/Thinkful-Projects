@@ -1,0 +1,161 @@
+html, body{
+	margin:0px;
+	padding:0px;
+}
+.video{
+	height:1000px;
+width:100%;
+background-color:#FFFFFF;
+}
+.info{
+	height:400px;
+width:100%;
+background-color:#eee;
+	background-image:url(contentbg.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.buyvideo{
+	background-color:#71A2B6;
+	font: 400 1.4em/1.4em 'Josefin Sans';
+	width:175px;
+	height:40px;
+	position:relative;
+	margin:0px;
+	margin-top:-20px;
+	top:50%;
+	left:50%;
+	padding:10px;
+	margin-left:-87.5px;
+	color:white;	
+	text-align:center;
+			-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	cursor:pointer;
+
+}
+.contact{
+	height:400px;
+width:100%;
+background-color:white;
+border-top:solid white 5px;
+}
+.videoinfo{
+	background-color:#71A2B6;
+	padding:20px;
+	position:relative;
+	margin-top:5%;
+	
+		font: 300 1.4em/1.4em 'Josefin Sans';
+width:800px;
+display:inline-block;
+left:50%;
+margin-left:-410px;
+		-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.videoinfo2{
+	position:relative;
+		background-color:#BED4DD;
+	padding:20px;
+	color:black;
+	top:50%;
+	margin-top:-27.5px;
+	height:275px;
+	
+		font: 400 1.8em/1.4em 'Josefin Sans';
+width:400px;
+display:inline-block;
+left:75%;
+margin-left:-100px;
+		-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.videoreview1{
+	position:relative;
+		background-color:white;
+	padding:40px;
+	color:black;
+	top:50%;
+	margin-top:-70px;
+	height:100px;
+		font: 400 1.8em/1.4em 'Josefin Sans';
+width:800px;
+display:inline-block;
+left:50%;
+margin-left:-420px;
+border:solid 2px #71A2B6;
+margin-right:10px;
+		-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#buysoon{
+	font: 400 1.5em/1.5em 'Lato';
+}
+.content{
+	position:relative;
+	margin-left:-350px;
+	background-color:#eee;
+	display:block;
+	left:50%;
+	width:700px;
+	height:400px;
+	border:2px solid #BED4DD;
+}
+@media only screen and (max-width:1350px){
+.videoinfo2{
+		font: 400 1.2em/1.4em 'Josefin Sans';
+width:200px;
+}
+@media only screen and (max-width:1050px){
+.videoinfo{
+	width:90%;
+	left:0%;
+	margin:0%;
+	margin-top:5%;
+	padding:5%;
+}
+
+.videoreview1{
+		width:89.5%;
+	left:0%;
+	margin:0%;
+	padding:5%;
+}
+}
+@media only screen and (max-width:750px){
+.videoinfo{
+		font: 300 1.2em/1.4em 'Josefin Sans';
+}
+.content{
+	width:98.25%;
+	margin:0px;
+	left:0%;
+}
+
+.videoreview1{
+			font: 400 1.4em/1.4em 'Josefin Sans';
+					width:89%;
+	left:0%;
+	margin:0%;
+	padding:5%;
+}
+
+	}
+	@media only screen and (max-width:500px){
+.videoinfo{
+		font: 400 0.90em/1.5em 'Josefin Sans';
+}
+.videoreview1{
+	width:88.5%;
+			font: 400 1.2em/1.4em 'Josefin Sans';
+}
+	}
+
+
